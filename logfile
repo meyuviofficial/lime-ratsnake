@@ -208,3 +208,6 @@
 2024-11-04 18:59:51.768 IST [42050] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash) VALUES ('Rashmika Mandanna', 36, 'Rashmika@gmail.com', '$2b$12$v7aaT97QBegsSc29aAnD8OTDcn7fNKCkBNdqT6NIZzPcD3zsH80BG')
 2024-11-04 19:00:23.278 IST [96119] ERROR:  syntax error at or near "user" at character 12
 2024-11-04 19:00:23.278 IST [96119] STATEMENT:  DROP TABLE user;
+2024-11-04 19:04:32.522 IST [43725] ERROR:  duplicate key value violates unique constraint "user_pkey"
+2024-11-04 19:04:32.522 IST [43725] DETAIL:  Key (email)=(Rashmika@gmail.com) already exists.
+2024-11-04 19:04:32.522 IST [43725] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash) VALUES ('Yuvaraj S', 22, 'Rashmika@gmail.com', '$2b$12$JXMkSVGVaNswc71fnz0VWe2mYI5h6NZ10Yqw6/CqrHXSTaNZfCnfa')

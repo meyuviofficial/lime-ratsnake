@@ -35,7 +35,7 @@ def create_user(user: UserCreateOrUpdate):
         extra_data = {
             "password_hash": hash_value,
         }
-        print("Extra data: ", extra_data)
+        # print("Extra data: ", extra_data)
         try:
             user_db = User.model_validate(user, update=extra_data)
             session.add(user_db)
@@ -73,28 +73,23 @@ def login_user(user: UserLogin):
 
         return _passwords.verify_password(user.password, user_db.password_hash)
 
-
-# @app.post("/users/update/", response_model=UserPublic)
+# TODO: For some reason, update function is not working ! Needs to be checked. 
+# @app.put("/users/update/", response_model=UserPublic)
 # def update_user(user: UserCreateOrUpdate):
-#     hash_value = _passwords.create_secure_password(user.password)
 #     with Session(engine) as session:
-#         try:
+#         statement = select(User).where(User.email == user.email)
+#         user_db = session.exec(statement).first()
+#         if user_db is None:
+#             print("User not found")
+#             return {"error": "User not found"}
 
-#             salt, key = hash_value[:16], hash_value[16:]
-#             hash_algo = "PBKDF2"
-#             iterations = 100000
-#             extra_data = {
-#                 "password_hash": key,
-#                 "salt": salt,
-#                 "hash_algo": hash_algo,
-#                 "iterations": iterations,
-#             }
-#             print("Extra data: ", extra_data)
-#             user_db = User.model_validate(user, update=extra_data)
-#             user_db = session.get(User, user.email)
-#             session.add(user_db)
-#             session.commit()
-#             session.refresh(user_db)
-#             return user_db
-#         except ValidationError as e:
-#             return {"error": str(e)}
+#         hash_value = _passwords.create_secure_password(user.password)
+#         extra_data = {
+#             "password_hash": hash_value,
+#         }
+#         user_db = User.model_validate(user, update=extra_data)
+
+#         session.add(user_db)
+#         session.commit()
+#         session.refresh(user_db)
+#         return user_db
