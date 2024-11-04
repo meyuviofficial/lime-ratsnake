@@ -1,10 +1,13 @@
 from fastapi import FastAPI
 from sqlmodel import Session, SQLModel, create_engine, select
-from models.models import *
+from models.models import User, UserPublic, UserCreateOrUpdate, UserLogin
+from classes.passwords import Password
+from pydantic import ValidationError
+from contextlib import asynccontextmanager
 
 app = FastAPI()
-
-engine = create_engine("postgresql://yuvi:yuvi@localhost:5432/limeratsnake")
+_passwords = Password()
+engine = create_engine("postgresql://yuvi:yuvi@localhost:5432/lrsmaster")
 SQLModel.metadata.create_all(engine)
 
 
@@ -12,23 +15,86 @@ def create_all():
     SQLModel.metadata.create_all(engine)
 
 
-@app.on_event("startup")
-def on_startup():
+@asynccontextmanager
+async def on_startup(app: FastAPI):
     create_all()
+    yield
 
 
-@app.get("/users/", response_model=list[User])
+@app.get("/users/list", response_model=list[UserPublic])
 def list_Users():
     with Session(engine) as session:
         users = session.query(User).all()
         return users
 
 
-@app.post("/users/", response_model=UserPublic)
-def create_user(user: UserCreate):
+@app.post("/users/create", response_model=UserPublic)
+def create_user(user: UserCreateOrUpdate):
+    hash_value = _passwords.create_secure_password(user.password)
     with Session(engine) as session:
-        user_db = User.model_validate(user)
-        session.add(user_db)
+        extra_data = {
+            "password_hash": hash_value,
+        }
+        print("Extra data: ", extra_data)
+        try:
+            user_db = User.model_validate(user, update=extra_data)
+            session.add(user_db)
+            session.commit()
+            session.refresh(user_db)
+            return user_db
+        except ValidationError as e:
+            return {"error": str(e)}
+
+
+@app.get("/users/get/", response_model=UserPublic)
+def get_user(email: str):
+    with Session(engine) as session:
+        user = session.get(User, email)
+        return user
+
+
+@app.delete("/users/delete/")
+def delete_user(email: str):
+    with Session(engine) as session:
+        user = session.get(User, email)
+        session.delete(user)
         session.commit()
-        session.refresh(user_db)
-        return user_db
+        return {"message": "User deleted successfully"}
+
+
+@app.post("/users/login/", response_model=bool)
+def login_user(user: UserLogin):
+    with Session(engine) as session:
+        statement = select(User).where(User.email == user.email)
+        user_db = session.exec(statement).first()
+        if user_db is None:
+            print("User not found")
+            return {"error": "User not found"}
+
+        return _passwords.verify_password(user.password, user_db.password_hash)
+
+
+# @app.post("/users/update/", response_model=UserPublic)
+# def update_user(user: UserCreateOrUpdate):
+#     hash_value = _passwords.create_secure_password(user.password)
+#     with Session(engine) as session:
+#         try:
+
+#             salt, key = hash_value[:16], hash_value[16:]
+#             hash_algo = "PBKDF2"
+#             iterations = 100000
+#             extra_data = {
+#                 "password_hash": key,
+#                 "salt": salt,
+#                 "hash_algo": hash_algo,
+#                 "iterations": iterations,
+#             }
+#             print("Extra data: ", extra_data)
+#             user_db = User.model_validate(user, update=extra_data)
+#             user_db = session.get(User, user.email)
+#             session.add(user_db)
+#             session.commit()
+#             session.refresh(user_db)
+#             return user_db
+#         except ValidationError as e:
+#             return {"error": str(e)}

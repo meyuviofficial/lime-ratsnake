@@ -1,1 +1,1 @@
-/home/linuxbrew/.linuxbrew/Cellar/postgresql@14/14.13_3/bin/postgres "-D" "./data"
+/opt/homebrew/Cellar/postgresql@14/14.13_1/bin/postgres "-D" "./data"

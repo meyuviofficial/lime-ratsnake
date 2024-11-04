@@ -95,3 +95,116 @@
 2024-11-04 11:18:37.521 IST [39858] STATEMENT:  SELECT * from limeratsnake;
 2024-11-04 11:20:09.835 IST [40087] ERROR:  column "name" does not exist at character 8
 2024-11-04 11:20:09.835 IST [40087] STATEMENT:  SELECT name FROM user;
+2024-11-04 14:03:46.245 IST [11709] FATAL:  data directory "/Users/yuvaraj.selvarajan/Documents/Code/Python/lime-ratsnake/./data" has invalid permissions
+2024-11-04 14:03:46.245 IST [11709] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2024-11-04 14:05:15.310 IST [11991] FATAL:  data directory "/Users/yuvaraj.selvarajan/Documents/Code/Python/lime-ratsnake/./data" has invalid permissions
+2024-11-04 14:05:15.310 IST [11991] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2024-11-04 14:08:18.495 IST [14121] FATAL:  could not open directory "pg_notify": No such file or directory
+2024-11-04 14:08:18.496 IST [14121] LOG:  database system is shut down
+2024-11-04 14:08:54.125 IST [14241] FATAL:  could not open directory "pg_notify": No such file or directory
+2024-11-04 14:08:54.126 IST [14241] LOG:  database system is shut down
+2024-11-04 14:09:14.069 IST [14334] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.4.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2024-11-04 14:09:14.072 IST [14334] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-04 14:09:14.072 IST [14334] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:09:14.072 IST [14334] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-04 14:09:14.072 IST [14334] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:09:14.072 IST [14334] WARNING:  could not create listen socket for "localhost"
+2024-11-04 14:09:14.072 IST [14334] FATAL:  could not create any TCP/IP sockets
+2024-11-04 14:09:14.073 IST [14334] LOG:  database system is shut down
+2024-11-04 14:20:33.785 IST [18101] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.4.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2024-11-04 14:20:33.787 IST [18101] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-04 14:20:33.787 IST [18101] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:20:33.787 IST [18101] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-04 14:20:33.787 IST [18101] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:20:33.787 IST [18101] WARNING:  could not create listen socket for "localhost"
+2024-11-04 14:20:33.787 IST [18101] FATAL:  could not create any TCP/IP sockets
+2024-11-04 14:20:33.789 IST [18101] LOG:  database system is shut down
+2024-11-04 14:20:48.705 IST [18142] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.4.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2024-11-04 14:20:48.718 IST [18142] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-04 14:20:48.718 IST [18142] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:20:48.718 IST [18142] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-04 14:20:48.718 IST [18142] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:20:48.718 IST [18142] WARNING:  could not create listen socket for "localhost"
+2024-11-04 14:20:48.718 IST [18142] FATAL:  could not create any TCP/IP sockets
+2024-11-04 14:20:48.718 IST [18142] LOG:  database system is shut down
+2024-11-04 14:23:09.991 IST [18420] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.4.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2024-11-04 14:23:09.999 IST [18420] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-11-04 14:23:09.999 IST [18420] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:23:09.999 IST [18420] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-04 14:23:09.999 IST [18420] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-04 14:23:09.999 IST [18420] WARNING:  could not create listen socket for "localhost"
+2024-11-04 14:23:09.999 IST [18420] FATAL:  could not create any TCP/IP sockets
+2024-11-04 14:23:10.001 IST [18420] LOG:  database system is shut down
+/bin/sh: line 0: exec: 5433: not found
+/bin/sh: line 0: exec: 5433: not found
+/bin/sh: line 0: exec: 5432: not found
+/bin/sh: line 0: exec: 5432: not found
+2024-11-04 14:45:21.213 IST [20485] LOG:  starting PostgreSQL 14.13 (Homebrew) on aarch64-apple-darwin23.4.0, compiled by Apple clang version 15.0.0 (clang-1500.3.9.4), 64-bit
+2024-11-04 14:45:21.226 IST [20485] LOG:  listening on IPv6 address "::1", port 5432
+2024-11-04 14:45:21.226 IST [20485] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-04 14:45:21.229 IST [20485] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-04 14:45:21.244 IST [20486] LOG:  database system was shut down at 2024-11-04 14:09:10 IST
+2024-11-04 14:45:21.248 IST [20485] LOG:  database system is ready to accept connections
+2024-11-04 15:03:49.313 IST [25204] FATAL:  role "yuvi" does not exist
+2024-11-04 15:05:45.327 IST [26128] FATAL:  database "yuvaraj.selvarajan" does not exist
+2024-11-04 15:05:56.797 IST [26194] FATAL:  database "yuvaraj.selvarajan" does not exist
+2024-11-04 15:07:08.749 IST [26480] ERROR:  role "yuvaraj.selvarajan" already exists
+2024-11-04 15:07:08.749 IST [26480] STATEMENT:  CREATE ROLE "yuvaraj.selvarajan" SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2024-11-04 15:07:18.519 IST [26547] FATAL:  role "yuvi" does not exist
+2024-11-04 15:07:18.923 IST [26549] FATAL:  role "yuvi" does not exist
+2024-11-04 17:31:01.263 IST [76708] ERROR:  column "created_at" of relation "user" does not exist at character 21
+2024-11-04 17:31:01.263 IST [76708] STATEMENT:  INSERT INTO "user" (created_at, updated_at, name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('2024-11-04T12:00:55.814048+00:00'::timestamptz, '2024-11-04T12:01:01.223895+00:00'::timestamptz, 'Tim Cook', 52, 'Tim.Cook@gmail.com', '\x8f\xb4\xb5z<x\x15\xd9\x9f\xdd{x>\xa4\x1c64\x9f\xa6\xcb!\xf2\x93\xedf\xfb\\b\x9a\x15W\xa8v\xff\xff\xee\xc0\xc2\x05t\xe9\xd1\xd9\x03''', 'b''\\\xa3\x99\x12', 'PBKDF2', 100000)
+2024-11-04 17:32:02.326 IST [77484] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:32:02.326 IST [77484] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'bp\x82\xad*\x86Y\xa6)\x13\xcd\x1c\x94S*\xa7''9a\x8ae\xbe\x17\xd1C\xea\xce\xc2\xf6\xdc\xded\xb5\x9f3\xdb\x96Bt\x84\xc3\xf0k"', 'b"r)\xffy\xe5\xf', 'PBKDF2', 100000)
+2024-11-04 17:33:03.350 IST [78085] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:33:03.350 IST [78085] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '\xccAS\xf1j\xcfl\xefM*\xbc\xdb\xcf\xa8\xe7h\x86\xa1\xd5\xf2\x0f\x92B!\xa0\xc6\xd5\x98\x04\t\xb8\x7f\x90\xa0\xc8\xf1\x82o\xf6\xbd\xabv|''', 'b''\x8f\xdfpz\x8a', 'PBKDF2', 100000)
+2024-11-04 17:33:59.470 IST [78677] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:33:59.470 IST [78677] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', ' \x85\x1a\x1b\xdc\xb7\xee\xc0\xf2\x84\x93\xd8\x02\x06{F\xfd\xc6\xae\xa7\x15\x13j\xab\x0e\x9d\xecL\x10A\xf2\x11\xc8\x84\xdb\xc2\xc1\x90zS\x855\xe0''', 'b''\x85-v\x13\xd0', 'PBKDF2', 100000)
+2024-11-04 17:39:17.356 IST [81403] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:39:17.356 IST [81403] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '0\xfa\x18\xb0\x80\xc1=\xed\xf1\xef\x8f\xec{\xbb\xf4F\x10\xbc!o\x11\x10\x9d\xd1`\xe5}`\xb7\xf9\xa6\xba\xb9\xa1\xc7\x8a\n\xa2{,H>\xea''', 'b''\x1e$\xf0}j\xf', 'PBKDF2', 100000)
+2024-11-04 17:39:49.364 IST [81680] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:39:49.364 IST [81680] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '\x81R\xa2\xc9K@\x82\xed\xfd\x90\xc91\xc3=\x02\xa4\x99@\xc9\x14\x08:n?\xe0\xd7]\xaf\x81\x85\x08\xd2sWc\x183\xa3\xccEr\xd2z''', 'b''\x8f\xc1ky\x1d', 'PBKDF2', 100000)
+2024-11-04 17:41:13.384 IST [82697] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:41:13.384 IST [82697] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'z\xdf\xda\xb0\xb1\xe2\x1f;\xe68\xe57\xa7J\xdc\xabzn\xe9y\\\xcd\xd0\x88\xdfS\xc0%Y\x17\x1b\xbe\x92\x9f3@ \xc7d!\x12\x99\xeb''', 'b''\xe7A\x92J\xbc', 'PBKDF2', 100000)
+2024-11-04 17:41:48.712 IST [83233] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:41:48.712 IST [83233] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'Kv.\xdb.G\x08\xcb\x0f\x8a\xe2\x90ke\x98\xe4\xf0\x10\xf8\xadX\xd0\xeaCAb\xe8\x86\xa1I\xb4(\x07}\xed\xea\x8cL\xa7\xdf\xb5\x8d\x16''', 'b''u\xda}\xbe\xfe', 'PBKDF2', 100000)
+2024-11-04 17:42:24.845 IST [83826] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:42:24.845 IST [83826] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '\xf6j4\xce\xb1U\x81\xb4\xd0g\x7fE\x17K+\xc3\x8f\xd0\x9a\x91j\xee\x12\xc3\xb9!\xee;i%+<d9\x9a1jc\x8e\xeb\x9fx\xbc''', 'b''\x14y\xcd\x84(', 'PBKDF2', 100000)
+2024-11-04 17:47:39.463 IST [88424] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:47:39.463 IST [88424] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '\x8d\xdf\x07\x10160z\xdf\xc4\x06\xa5)\xefo\xe3y\xbb\xcd\xc8\xfb\xfc\xe78O\x87\n\xaf\x80\x13Um3\xd6\xa7\xa1jNPJ\xa1m\x16''', 'b''c\x919\x92\x98', 'PBKDF2', 100000)
+2024-11-04 17:48:34.343 IST [89022] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:48:34.343 IST [89022] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', '15\x0f''$\xa5g\xa8\xdd\x92\xdf\x99cR3V\xf5\x12m\xe7\x1eq\xf3\x9e\xfe1\xbb\x1e\x1a&\x1d\xd3\x8e>\xa8\xb8\xc3\x0bV\xf7*\x92\x87h\xd5\xc3"', 'b"\x8d\xf6\xb9\x', 'PBKDF2', 100000)
+2024-11-04 17:54:26.616 IST [92639] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:54:26.616 IST [92639] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'xe0q-\x9bOKO\xd8\xf5\x7f\xa5\x85I\x15:`\xf7@\x9d\x9c\x83\xa7"@-\xe52\xc2\xbc\xc6#x\xb9^F\x19K\x087\xe4\xe5\x01\xabI''', 'b''h\x8b\x8c\xb5\', 'PBKDF2', 100000)
+2024-11-04 17:54:35.622 IST [92745] ERROR:  column "password_hash" of relation "user" does not exist at character 39
+2024-11-04 17:54:35.622 IST [92745] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'SI\x85\xa7\x9d\xc9\x8a\x89\xb3tB\xb7,(\x00\x8d\x16\xf2\xc2\xd16\x159\xe8I\x87rD\x15\xe2\x92^I\xec\xd0\x1d)T\x9aP\x0c''', 'b''\x99EMnB\t\xc4', 'PBKDF2', 100000)
+2024-11-04 17:56:23.015 IST [37561] ERROR:  column "name" does not exist at character 8
+2024-11-04 17:56:23.015 IST [37561] STATEMENT:  select name from user;
+2024-11-04 17:56:32.048 IST [37561] ERROR:  syntax error at or near "user" at character 12
+2024-11-04 17:56:32.048 IST [37561] STATEMENT:  drop table user;
+2024-11-04 17:56:40.400 IST [37561] ERROR:  syntax error at or near "user" at character 12
+2024-11-04 17:56:40.400 IST [37561] STATEMENT:  DROP TABLE user;
+2024-11-04 17:57:33.013 IST [37561] ERROR:  syntax error at or near "]" at character 1
+2024-11-04 17:57:33.013 IST [37561] STATEMENT:  ]d
+	DROP TABLE user
+	SELECT * FROM user;
+2024-11-04 17:57:45.869 IST [37561] ERROR:  column "id" does not exist at character 8
+2024-11-04 17:57:45.869 IST [37561] STATEMENT:  SELECT id FROM user;
+2024-11-04 17:58:28.785 IST [37561] ERROR:  syntax error at or near "user" at character 12
+2024-11-04 17:58:28.785 IST [37561] STATEMENT:  DROP TABLE user;
+2024-11-04 17:59:31.442 IST [37561] ERROR:  syntax error at or near "user" at character 12
+2024-11-04 17:59:31.442 IST [37561] STATEMENT:  DROP TABLE user
+	DROP TABLE "user"
+	DROP TABLE user
+	DROP TABLE "user";
+2024-11-04 18:01:53.906 IST [96832] ERROR:  duplicate key value violates unique constraint "user_pkey"
+2024-11-04 18:01:53.906 IST [96832] DETAIL:  Key (email)=(Tim.Cook@gmail.com) already exists.
+2024-11-04 18:01:53.906 IST [96832] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash, salt, hash_algo, iterations) VALUES ('Tim Cook', 52, 'Tim.Cook@gmail.com', 'v\x84[\xbc\xc5\x7f@\xd5r\xd3i\x11nA\xb9\xf26\xcb\xc0?\xc4\xee\x8f\xfd\xb6\xa6Y\xc8\xaa\xb9\xf4\xe3\xfb\x9cj\x9d\xa4\xef\xb3\x98\xdb\x13\xb7''', 'b''\xbe=\x03\xe39', 'PBKDF2', 100000)
+2024-11-04 18:59:23.405 IST [41674] ERROR:  null value in column "salt" of relation "user" violates not-null constraint
+2024-11-04 18:59:23.405 IST [41674] DETAIL:  Failing row contains (Rashmika Mandanna, 36, Rashmika@gmail.com, $2b$12$ZagFBI0mXIedtN9JkrAq7.nsbo86H.779g1o9CwR7iffeEGGCdK06, null, null, null).
+2024-11-04 18:59:23.405 IST [41674] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash) VALUES ('Rashmika Mandanna', 36, 'Rashmika@gmail.com', '$2b$12$ZagFBI0mXIedtN9JkrAq7.nsbo86H.779g1o9CwR7iffeEGGCdK06')
+2024-11-04 18:59:51.768 IST [42050] ERROR:  null value in column "salt" of relation "user" violates not-null constraint
+2024-11-04 18:59:51.768 IST [42050] DETAIL:  Failing row contains (Rashmika Mandanna, 36, Rashmika@gmail.com, $2b$12$v7aaT97QBegsSc29aAnD8OTDcn7fNKCkBNdqT6NIZzPcD3zsH80BG, null, null, null).
+2024-11-04 18:59:51.768 IST [42050] STATEMENT:  INSERT INTO "user" (name, age, email, password_hash) VALUES ('Rashmika Mandanna', 36, 'Rashmika@gmail.com', '$2b$12$v7aaT97QBegsSc29aAnD8OTDcn7fNKCkBNdqT6NIZzPcD3zsH80BG')
+2024-11-04 19:00:23.278 IST [96119] ERROR:  syntax error at or near "user" at character 12
+2024-11-04 19:00:23.278 IST [96119] STATEMENT:  DROP TABLE user;
