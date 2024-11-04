@@ -1,0 +1,1 @@
+/home/linuxbrew/.linuxbrew/Cellar/postgresql@14/14.13_3/bin/postgres "-D" "./data"

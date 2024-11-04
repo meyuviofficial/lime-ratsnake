@@ -1,0 +1,97 @@
+2024-11-03 14:53:02.905 IST [31703] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:02.906 IST [31703] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:02.906 IST [31703] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:02.906 IST [31703] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:02.906 IST [31703] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:02.910 IST [31703] LOG:  database system is shut down
+2024-11-03 14:53:06.265 IST [31788] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:06.266 IST [31788] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:06.266 IST [31788] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:06.266 IST [31788] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:06.266 IST [31788] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:06.269 IST [31788] LOG:  database system is shut down
+2024-11-03 14:53:11.554 IST [31922] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:11.555 IST [31922] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:11.555 IST [31922] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:11.555 IST [31922] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:11.555 IST [31922] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:11.559 IST [31922] LOG:  database system is shut down
+2024-11-03 14:53:28.309 IST [32160] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:28.310 IST [32160] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:28.310 IST [32160] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:28.310 IST [32160] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:28.310 IST [32160] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:28.313 IST [32160] LOG:  database system is shut down
+2024-11-03 14:53:34.200 IST [32242] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:34.200 IST [32242] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:34.200 IST [32242] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:34.200 IST [32242] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:34.200 IST [32242] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:34.204 IST [32242] LOG:  database system is shut down
+2024-11-03 14:53:38.056 IST [32319] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:38.056 IST [32319] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:38.056 IST [32319] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:38.056 IST [32319] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:38.056 IST [32319] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:38.060 IST [32319] LOG:  database system is shut down
+2024-11-03 14:53:49.479 IST [32558] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:49.479 IST [32558] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:49.479 IST [32558] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:49.479 IST [32558] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:49.479 IST [32558] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:49.483 IST [32558] LOG:  database system is shut down
+2024-11-03 14:53:57.919 IST [32633] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:53:57.919 IST [32633] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:53:57.919 IST [32633] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:53:57.919 IST [32633] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:53:57.919 IST [32633] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:53:57.923 IST [32633] LOG:  database system is shut down
+2024-11-03 14:54:10.879 IST [32882] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 14:54:10.879 IST [32882] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 14:54:10.879 IST [32882] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 14:54:10.879 IST [32882] WARNING:  could not create listen socket for "localhost"
+2024-11-03 14:54:10.879 IST [32882] FATAL:  could not create any TCP/IP sockets
+2024-11-03 14:54:10.883 IST [32882] LOG:  database system is shut down
+2024-11-03 15:08:10.675 IST [39501] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 15:08:10.676 IST [39501] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-11-03 15:08:10.676 IST [39501] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2024-11-03 15:08:10.676 IST [39501] WARNING:  could not create listen socket for "localhost"
+2024-11-03 15:08:10.676 IST [39501] FATAL:  could not create any TCP/IP sockets
+2024-11-03 15:08:10.680 IST [39501] LOG:  database system is shut down
+2024-11-03 15:10:05.148 IST [40138] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-03 15:10:05.148 IST [40138] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-03 15:10:05.150 IST [40138] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-03 15:10:05.155 IST [40140] LOG:  database system was shut down at 2024-11-03 15:08:08 IST
+2024-11-03 15:10:05.162 IST [40138] LOG:  database system is ready to accept connections
+2024-11-03 15:10:22.297 IST [40251] FATAL:  database "yuvi" does not exist
+2024-11-03 15:10:31.458 IST [40331] FATAL:  role "postgres" does not exist
+2024-11-03 15:15:01.315 IST [40695] ERROR:  syntax error at or near "/" at character 1
+2024-11-03 15:15:01.315 IST [40695] STATEMENT:  /db
+	createdb lime-ratsnake
+	create database lime-ratsnake
+	/db
+	createdb lime-ratsnake
+	CREATE DATABASE limeratsnake
+	CREATE DATABASE lime-ratsnake;
+2024-11-03 15:15:10.617 IST [40695] ERROR:  permission denied to create database
+2024-11-03 15:15:10.617 IST [40695] STATEMENT:  CREATE DATABASE limeratsnake;
+2024-11-03 15:15:41.712 IST [41005] FATAL:  database "yuvi" does not exist
+2024-11-03 15:16:04.028 IST [41082] ERROR:  syntax error at or near "/" at character 1
+2024-11-03 15:16:04.028 IST [41082] STATEMENT:  /d
+	/l
+	/l 
+	CREATE DATABASE lime-ratsnake;
+2024-11-03 17:17:07.436 IST [40138] LOG:  received smart shutdown request
+2024-11-03 17:17:07.443 IST [40138] LOG:  background worker "logical replication launcher" (PID 40146) exited with exit code 1
+2024-11-03 17:17:07.443 IST [40141] LOG:  shutting down
+2024-11-03 17:17:07.458 IST [40138] LOG:  database system is shut down
+2024-11-04 11:16:18.001 IST [39569] LOG:  starting PostgreSQL 14.13 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-11-04 11:16:18.002 IST [39569] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-04 11:16:18.004 IST [39569] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-04 11:16:18.009 IST [39570] LOG:  database system was shut down at 2024-11-03 17:17:07 IST
+2024-11-04 11:16:18.018 IST [39569] LOG:  database system is ready to accept connections
+2024-11-04 11:17:46.792 IST [39787] FATAL:  database "yuvi" does not exist
+2024-11-04 11:18:37.521 IST [39858] ERROR:  relation "limeratsnake" does not exist at character 15
+2024-11-04 11:18:37.521 IST [39858] STATEMENT:  SELECT * from limeratsnake;
+2024-11-04 11:20:09.835 IST [40087] ERROR:  column "name" does not exist at character 8
+2024-11-04 11:20:09.835 IST [40087] STATEMENT:  SELECT name FROM user;
